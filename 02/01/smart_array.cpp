@@ -27,13 +27,13 @@ void smart_array::add_element(int val)
 
 int smart_array::get_element(size_t index)
 {
-	if (index_add < size_)
+	if (index < size_)
 	{
 		return arr_[index];
 	}
 	else
 	{
-		throw  std::runtime_error("out of the array");
+		throw  std::runtime_error("Index of an element outside the array");
 	}
 
 	return arr_[0];
