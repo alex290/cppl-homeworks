@@ -50,12 +50,17 @@ smart_array & smart_array::operator=(smart_array& v)
 		arr_ = new int[size_];
 		for (size_t i = 0; i < size_; i++)
 		{
-			arr_[i] = v.arr_[i];
+			arr_[i] = v[i];
 		}
 	}
 
 	return *this;
 	
+}
+
+int smart_array::operator[](size_t index)
+{
+	return arr_[index];
 }
 
 size_t smart_array::get_size()

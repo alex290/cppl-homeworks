@@ -4,8 +4,6 @@
 
 class smart_array
 {
-	int* arr_;
-
 public:
 	smart_array(size_t size);
 	~smart_array();
@@ -15,9 +13,11 @@ public:
 	size_t get_size();
 
 	smart_array & operator=(smart_array& v); //перегрузка
+	int operator[](size_t index);
 
 
 private:
+	int* arr_;
 	size_t index_add{};
 	size_t size_{};
 };
