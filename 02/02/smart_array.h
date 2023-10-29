@@ -15,6 +15,8 @@ public:
 	smart_array & operator=(smart_array& v); //перегрузка
 	int operator[](size_t index);
 
+	size_t get_index_add();
+
 
 private:
 	int* arr_;

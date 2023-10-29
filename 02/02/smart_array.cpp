@@ -52,9 +52,8 @@ smart_array & smart_array::operator=(smart_array& v)
 		for (size_t i = 0; i < size_; i++)
 		{
 			arr_[i] = v[i];
-			index_add = i;
 		}
-		index_add++;
+		index_add = v.get_index_add();
 	}
 
 	return *this;
@@ -64,6 +63,11 @@ smart_array & smart_array::operator=(smart_array& v)
 int smart_array::operator[](size_t index)
 {
 	return arr_[index];
+}
+
+size_t smart_array::get_index_add()
+{
+	return index_add;
 }
 
 size_t smart_array::get_size()
