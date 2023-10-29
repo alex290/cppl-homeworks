@@ -42,6 +42,7 @@ int smart_array::get_element(size_t index)
 smart_array & smart_array::operator=(smart_array& v)
 {
 	delete[] arr_;
+	index_add = 0;
 	arr_ = nullptr;
 	rsize_t size_ = v.get_size();
 
@@ -51,7 +52,9 @@ smart_array & smart_array::operator=(smart_array& v)
 		for (size_t i = 0; i < size_; i++)
 		{
 			arr_[i] = v[i];
+			index_add = i;
 		}
+		index_add++;
 	}
 
 	return *this;
