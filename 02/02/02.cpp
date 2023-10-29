@@ -16,7 +16,6 @@ int main()
 
 		arr = new_array;
 		std::cout << arr[1] << std::endl;
-		std::cout << arr.get_index_add() << std::endl;
 	}
 	catch (const std::exception& ex) {
 		std::cout << ex.what() << std::endl;
