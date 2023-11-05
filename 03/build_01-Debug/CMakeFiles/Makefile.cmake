@@ -40,15 +40,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/CMake/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake"
   "D:/lesson/cpp/cppl-homeworks/03/01/CMakeLists.txt"
-  "D:/lesson/cpp/cppl-homeworks/03/01/tests/CMake/CatchConfigOptions.cmake"
-  "D:/lesson/cpp/cppl-homeworks/03/01/tests/CMake/CatchMiscFunctions.cmake"
-  "D:/lesson/cpp/cppl-homeworks/03/01/tests/CMakeLists.txt"
-  "D:/lesson/cpp/cppl-homeworks/03/01/tests/src/CMakeLists.txt"
-  "D:/lesson/cpp/cppl-homeworks/03/01/tests/src/catch2/catch_user_config.hpp.in"
   "CMakeFiles/3.27.7/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.7/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.7/CMakeRCCompiler.cmake"
   "CMakeFiles/3.27.7/CMakeSystem.cmake"
+  "D:/lesson/cpp/cppl-homeworks/03/tests/CMake/CatchConfigOptions.cmake"
+  "D:/lesson/cpp/cppl-homeworks/03/tests/CMake/CatchMiscFunctions.cmake"
+  "D:/lesson/cpp/cppl-homeworks/03/tests/CMakeLists.txt"
+  "D:/lesson/cpp/cppl-homeworks/03/tests/src/CMakeLists.txt"
+  "D:/lesson/cpp/cppl-homeworks/03/tests/src/catch2/catch_user_config.hpp.in"
   )
 
 # The corresponding makefile is:
@@ -60,15 +60,15 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "tests/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "tests/generated-includes/catch2/catch_user_config.hpp"
-  "tests/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test-build/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test-build/generated-includes/catch2/catch_user_config.hpp"
+  "test-build/src/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/lists.dir/DependInfo.cmake"
   "CMakeFiles/lists_test.dir/DependInfo.cmake"
-  "tests/src/CMakeFiles/Catch2.dir/DependInfo.cmake"
-  "tests/src/CMakeFiles/Catch2WithMain.dir/DependInfo.cmake"
+  "test-build/src/CMakeFiles/Catch2.dir/DependInfo.cmake"
+  "test-build/src/CMakeFiles/Catch2WithMain.dir/DependInfo.cmake"
   )

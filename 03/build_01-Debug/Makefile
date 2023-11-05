@@ -171,7 +171,7 @@ Catch2: cmake_check_build_system
 
 # fast build rule for target.
 Catch2/fast:
-	$(MAKE) $(MAKESILENT) -f tests\src\CMakeFiles\Catch2.dir\build.make tests/src/CMakeFiles/Catch2.dir/build
+	$(MAKE) $(MAKESILENT) -f test-build\src\CMakeFiles\Catch2.dir\build.make test-build/src/CMakeFiles/Catch2.dir/build
 .PHONY : Catch2/fast
 
 #=============================================================================
@@ -184,7 +184,7 @@ Catch2WithMain: cmake_check_build_system
 
 # fast build rule for target.
 Catch2WithMain/fast:
-	$(MAKE) $(MAKESILENT) -f tests\src\CMakeFiles\Catch2WithMain.dir\build.make tests/src/CMakeFiles/Catch2WithMain.dir/build
+	$(MAKE) $(MAKESILENT) -f test-build\src\CMakeFiles\Catch2WithMain.dir\build.make test-build/src/CMakeFiles/Catch2WithMain.dir/build
 .PHONY : Catch2WithMain/fast
 
 src/list.obj: src/list.cpp.obj

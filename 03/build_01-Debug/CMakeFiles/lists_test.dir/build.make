@@ -109,7 +109,7 @@ lists_test_EXTERNAL_OBJECTS =
 lists_test.exe: CMakeFiles/lists_test.dir/src/list.cpp.obj
 lists_test.exe: CMakeFiles/lists_test.dir/src/test-main.cpp.obj
 lists_test.exe: CMakeFiles/lists_test.dir/build.make
-lists_test.exe: tests/src/libCatch2d.a
+lists_test.exe: test-build/src/libCatch2d.a
 lists_test.exe: CMakeFiles/lists_test.dir/linkLibs.rsp
 lists_test.exe: CMakeFiles/lists_test.dir/objects1.rsp
 lists_test.exe: CMakeFiles/lists_test.dir/link.txt

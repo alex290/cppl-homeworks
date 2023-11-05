@@ -515,7 +515,7 @@ CTEST_SUBMIT_RETRY_DELAY:STRING=5
 Catch2WithMain_LIB_DEPENDS:STATIC=general;Catch2;
 
 //Value Computed by CMake
-Catch2_BINARY_DIR:STATIC=D:/lesson/cpp/cppl-homeworks/03/build_01-Debug/tests
+Catch2_BINARY_DIR:STATIC=D:/lesson/cpp/cppl-homeworks/03/build_01-Debug/test-build
 
 //The directory containing a CMake configuration file for Catch2.
 Catch2_DIR:PATH=Catch2_DIR-NOTFOUND
@@ -524,7 +524,7 @@ Catch2_DIR:PATH=Catch2_DIR-NOTFOUND
 Catch2_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-Catch2_SOURCE_DIR:STATIC=D:/lesson/cpp/cppl-homeworks/03/01/tests
+Catch2_SOURCE_DIR:STATIC=D:/lesson/cpp/cppl-homeworks/03/tests
 
 //Maximum time allowed before CTest will kill the test.
 DART_TESTING_TIMEOUT:STRING=1500
@@ -890,6 +890,8 @@ Catch2_GUID_CMAKE:INTERNAL=8d538cbe-01bf-4a2e-a98a-6c368fdf13d7
 DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
 //Test HAVE_FLAG__ffile_prefix_map_D__lesson_cpp_cppl_homeworks_03_01_tests__
 HAVE_FLAG__ffile_prefix_map_D__lesson_cpp_cppl_homeworks_03_01_tests__:INTERNAL=1
+//Test HAVE_FLAG__ffile_prefix_map_D__lesson_cpp_cppl_homeworks_03_tests__
+HAVE_FLAG__ffile_prefix_map_D__lesson_cpp_cppl_homeworks_03_tests__:INTERNAL=1
 //ADVANCED property for variable: MAKECOMMAND
 MAKECOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MEMORYCHECK_COMMAND

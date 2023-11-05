@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/lesson/cpp/cppl-homeworks/03/build_01-Debug/tests/cmake_install.cmake")
+  include("D:/lesson/cpp/cppl-homeworks/03/build_01-Debug/test-build/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

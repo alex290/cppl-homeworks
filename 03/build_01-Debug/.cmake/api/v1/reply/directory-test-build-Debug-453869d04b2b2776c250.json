@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "test-build",
+		"source" : "D:/lesson/cpp/cppl-homeworks/03/tests"
+	}
+}

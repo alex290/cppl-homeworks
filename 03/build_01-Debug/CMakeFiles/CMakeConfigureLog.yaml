@@ -636,3 +636,45 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "D:/lesson/cpp/cppl-homeworks/03/tests/CMake/CatchMiscFunctions.cmake:12 (check_cxx_compiler_flag)"
+      - "D:/lesson/cpp/cppl-homeworks/03/tests/CMake/CatchMiscFunctions.cmake:118 (add_cxx_flag_if_supported_to_targets)"
+      - "D:/lesson/cpp/cppl-homeworks/03/tests/src/CMakeLists.txt:343 (add_build_reproducibility_settings)"
+    checks:
+      - "Performing Test HAVE_FLAG__ffile_prefix_map_D__lesson_cpp_cppl_homeworks_03_tests__"
+    directories:
+      source: "D:/lesson/cpp/cppl-homeworks/03/build_01-Debug/CMakeFiles/CMakeScratch/TryCompile-n7jsuw"
+      binary: "D:/lesson/cpp/cppl-homeworks/03/build_01-Debug/CMakeFiles/CMakeScratch/TryCompile-n7jsuw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/lesson/cpp/cppl-homeworks/03/tests/extras;D:/lesson/cpp/cppl-homeworks/03/tests/CMake"
+    buildResult:
+      variable: "HAVE_FLAG__ffile_prefix_map_D__lesson_cpp_cppl_homeworks_03_tests__"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/lesson/cpp/cppl-homeworks/03/build_01-Debug/CMakeFiles/CMakeScratch/TryCompile-n7jsuw'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/devel/mingw64/bin/mingw32-make.exe -f Makefile cmTC_01974/fast
+        C:/devel/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_01974.dir\\build.make CMakeFiles/cmTC_01974.dir/build
+        mingw32-make[1]: Entering directory 'D:/lesson/cpp/cppl-homeworks/03/build_01-Debug/CMakeFiles/CMakeScratch/TryCompile-n7jsuw'
+        Building CXX object CMakeFiles/cmTC_01974.dir/src.cxx.obj
+        C:\\devel\\mingw64\\bin\\g++.exe -DHAVE_FLAG__ffile_prefix_map_D__lesson_cpp_cppl_homeworks_03_tests__  -ffile-prefix-map=D:/lesson/cpp/cppl-homeworks/03/tests/= -o CMakeFiles\\cmTC_01974.dir\\src.cxx.obj -c D:\\lesson\\cpp\\cppl-homeworks\\03\\build_01-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-n7jsuw\\src.cxx
+        Linking CXX executable cmTC_01974.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_01974.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_01974.dir/objects.a
+        C:\\devel\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_01974.dir/objects.a @CMakeFiles\\cmTC_01974.dir\\objects1.rsp
+        C:\\devel\\mingw64\\bin\\g++.exe -Wl,--whole-archive CMakeFiles\\cmTC_01974.dir/objects.a -Wl,--no-whole-archive -o cmTC_01974.exe -Wl,--out-implib,libcmTC_01974.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_01974.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'D:/lesson/cpp/cppl-homeworks/03/build_01-Debug/CMakeFiles/CMakeScratch/TryCompile-n7jsuw'
+        
+      exitCode: 0
+...

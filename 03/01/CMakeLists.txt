@@ -13,8 +13,8 @@ file(GLOB project
 add_executable(lists ${project})
 
 
-# # Продключаем Catch2
-add_subdirectory(tests)
+# Продключаем Catch2
+add_subdirectory(../tests test-build)
 file(GLOB project_test
     src/test-main.cpp
     src/list.cpp
