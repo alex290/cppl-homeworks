@@ -1,0 +1,136 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "tests",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-tests-Debug-70e4927a02b591d5c1f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "tests"
+				},
+				{
+					"build" : "tests/src",
+					"jsonFile" : "directory-tests.src-Debug-2c2c5d2f95cfa7087162.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "tests/src",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lists",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "Catch2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Catch2::@7e51e669bf9722ccbffa",
+					"jsonFile" : "target-Catch2-Debug-365591a3482ae8e35407.json",
+					"name" : "Catch2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Catch2WithMain::@7e51e669bf9722ccbffa",
+					"jsonFile" : "target-Catch2WithMain-Debug-fc3f134cfbc9e8ab69d2.json",
+					"name" : "Catch2WithMain",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lists::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lists-Debug-4301e26498e67a1344fd.json",
+					"name" : "lists",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lists_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lists_test-Debug-81e315ef6c5b6fb724cc.json",
+					"name" : "lists_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/lesson/cpp/cppl-homeworks/03/build_01-Debug",
+		"source" : "D:/lesson/cpp/cppl-homeworks/03/01"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

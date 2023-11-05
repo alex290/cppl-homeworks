@@ -1,0 +1,5 @@
+if(EXISTS "D:/lesson/cpp/cppl-homeworks/03/build_01-Debug/lists-b12d07c_tests.cmake")
+  include("D:/lesson/cpp/cppl-homeworks/03/build_01-Debug/lists-b12d07c_tests.cmake")
+else()
+  add_test(lists_NOT_BUILT-b12d07c lists_NOT_BUILT-b12d07c)
+endif()
