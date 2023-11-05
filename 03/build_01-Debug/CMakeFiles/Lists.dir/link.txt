@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\lists.dir/objects.a
-C:\devel\mingw64\bin\ar.exe qc CMakeFiles\lists.dir/objects.a @CMakeFiles\lists.dir\objects1.rsp
-C:\devel\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\lists.dir/objects.a -Wl,--no-whole-archive -o lists.exe -Wl,--out-implib,liblists.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\lists.dir\linkLibs.rsp
