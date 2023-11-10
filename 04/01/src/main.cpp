@@ -2,33 +2,33 @@
 #include <vector>
 
 template <typename T>
-T squaring(T val)
+T squaring(const T &val)
 {
     return (val * val);
 }
 
 template <typename T>
-std::vector<T> squaring(std::vector<T> &val)
+std::vector<T> squaring(const std::vector<T> &val)
 {
     std::vector<T> res;
     if (!val.empty())
     {
-        for (size_t i = 0; i < val.size(); i++)
+        for (const T & item : val)
         {
-            res.push_back(val[i] * val[i]);
+            res.push_back(item * item);
         }
     }
     return res;
 }
 
 template <typename T>
-void print(T val)
+void print(const T &val)
 {
     std::cout << val << std::endl;
 }
 
 template <typename T>
-void print(std::vector<T> &val)
+void print(const std::vector<T> &val)
 {
     if (!val.empty())
     {

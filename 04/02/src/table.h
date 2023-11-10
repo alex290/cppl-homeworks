@@ -27,7 +27,11 @@ public:
         delete[] elements;
     };
 
+    T *operator[](const int i) const { return elements[i]; };
     T *operator[](const int i) { return elements[i]; };
+
+    const int GetRows() { return row_; };
+    const int GetCols() { return col_; };
 
 private:
     T **elements = nullptr;
