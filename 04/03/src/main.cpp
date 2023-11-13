@@ -1,6 +1,5 @@
 #include <iostream>
-#include "get_sum.h"
-#include "get_count.h"
+#include "treecount.h"
 
 template <typename T>
 void print(std::vector<T> &val)
@@ -22,9 +21,10 @@ int main()
     std::cout << "[IN]: ";
     print(vIn);
 
-    get_sum sum(vIn);
-    std::cout << "[OUT]: get_sum() = " << sum() << std::endl;
+    TreeCount tree(vIn[0]);
+    tree(vIn);
 
-    get_count coun(vIn);
-    std::cout << "[OUT]: get_count() = " << coun();
+    std::cout << "[OUT]: get_sum() = " << tree.get_sum() << std::endl;
+
+    std::cout << "[OUT]: get_count() = " << tree.get_count();
 }
