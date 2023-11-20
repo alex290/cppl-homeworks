@@ -1,8 +1,0 @@
-[
-{
-  "directory": "D:/lesson/cpp/cppl-homeworks/08/build_02-Debug",
-  "command": "C:\\devel\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\Less.dir\\src\\main.cpp.obj -c D:\\lesson\\cpp\\cppl-homeworks\\08\\02\\src\\main.cpp",
-  "file": "D:/lesson/cpp/cppl-homeworks/08/02/src/main.cpp",
-  "output": "CMakeFiles/Less.dir/src/main.cpp.obj"
-}
-]
