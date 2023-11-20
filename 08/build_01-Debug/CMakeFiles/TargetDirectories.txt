@@ -1,0 +1,3 @@
+D:/lesson/cpp/cppl-homeworks/08/build_01-Debug/CMakeFiles/Less.dir
+D:/lesson/cpp/cppl-homeworks/08/build_01-Debug/CMakeFiles/edit_cache.dir
+D:/lesson/cpp/cppl-homeworks/08/build_01-Debug/CMakeFiles/rebuild_cache.dir
