@@ -3,12 +3,9 @@
 #include <memory>
 
 template <typename T>
-T &move_vectors(T &&val_one)
+std::vector<T> move_vectors(std::vector<T>& val_one)
 {
-    T &new_ptr = val_one;
-    // T old_ptr;
-    // val_one = nullptr;
-    return new_ptr;
+    return std::move(val_one);
 };
 
 template <typename T>
@@ -30,7 +27,11 @@ int main()
     std::vector<std::string> two;
     two = move_vectors(one);
 
+    std::cout << "Out TWO: ";
     print(two);
+
+    std::cout << "Out One: ";
+    print(one);
 
     return 0;
 }
