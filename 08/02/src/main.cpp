@@ -3,6 +3,7 @@
 #include <set>
 #include <list>
 #include <algorithm>
+#include <iostream>
 
 class big_integer
 {
@@ -12,13 +13,19 @@ public:
 
     big_integer(big_integer &&b_int)
     {
-        digits_ = b_int.numb();
-        b_int.digits_.clear();
+        digits_ = std::move(b_int.digits_);
+        // b_int.digits_.clear();
     };
 
     big_integer &operator=(const big_integer &a)
     {
         digits_ = a.digits_;
+        return *this;
+    };
+
+    big_integer &operator=(const big_integer &&a) noexcept
+    {
+        digits_ = std::move(a.digits_);
         return *this;
     };
 
